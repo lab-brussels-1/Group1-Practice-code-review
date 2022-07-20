@@ -12,7 +12,7 @@ helps you understand:
 ```js
 /**
  * Converts a nested array into a single array with no nesting
- *
+ import
  * It returns a new array and there are no side-effects
  *
  * @param {Array} [array=[]] - The array to flatten.
