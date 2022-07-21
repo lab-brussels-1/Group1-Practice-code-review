@@ -7,7 +7,7 @@ export const difference = (array = [], values = []) => {
     throw Error('arrays shoud not be empty');
   }
   const newArray = [];
-  Object.keys(newArray).array.forEach((element) => {
+  array.forEach((element) => {
     if (!newArray.includes(element)) {
       newArray.push(element);
     }
