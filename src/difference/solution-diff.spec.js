@@ -6,7 +6,7 @@ describe('difference: check the difference between two arrays, return the value 
       expect(difference([], [2])).toThrow('arrays shoud not be empty');
     });
     it('throw error when arrays are empty', () => {
-      expect(difference([], [2])).toThrow('arrays shoud not be empty');
+      expect(difference(1, [2])).toThrow('this is not an array');
     });
     it('check what is difference between arrays', () => {
       expect(difference([5, 0, 3], [0])).toEqual([5, 3]);
@@ -18,7 +18,7 @@ describe('difference: check the difference between two arrays, return the value 
       expect(difference([1.2, 0, 3], [0, 3])).toEqual([1.2]);
     });
     it('check repeated numbers', () => {
-      expect(difference([0.5, 0.5, 1], [1])).toEqual([0.5, 0.5]);
+      expect(difference([0.5, 0.5, 1], [1])).toEqual([0.5]);
     });
     it('check if it works with repeated numbers', () => {
       expect(difference([1, 1, 2, 2, 3], [1])).toEqual([2, 3]);
