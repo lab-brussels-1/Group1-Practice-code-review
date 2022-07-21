@@ -7,12 +7,10 @@ export const difference = (array = [], values = []) => {
     throw Error('arrays shoud not be empty');
   }
   const newArray = [];
-  if (Array.isArray(newArray)) {
-    array.forEach((element) => {
-      if (!newArray.includes(element)) {
-        newArray.push(element);
-      }
-    });
-    return newArray.filter((element) => !values.includes(element) === true);
-  }
+  Object.keys(newArray).array.forEach((element) => {
+    if (!newArray.includes(element)) {
+      newArray.push(element);
+    }
+  });
+  return newArray.filter((element) => !values.includes(element) === true);
 };
