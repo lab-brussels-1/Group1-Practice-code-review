@@ -3,10 +3,10 @@ import { difference } from './diff-solution.js';
 describe('difference: check the difference between two arrays, return the value not include in first array', () => {
   describe('difference between two arrays', () => {
     it('throw error when array is empty', () => {
-      expect(difference([], [2])).toThrow('arrays shoud not be empty');
+      expect(difference([], [2])).toThrowError();
     });
     it('throw error when arrays are empty', () => {
-      expect(difference(1, [2])).toThrow('this is not an array');
+      expect(difference(1, [2])).toThrowError();
     });
     it('check what is difference between arrays', () => {
       expect(difference([5, 0, 3], [0])).toEqual([5, 3]);
