@@ -1,0 +1,11 @@
+First of all the master branch does not contain any results. I do see 4 branches with some code in it. I was wondering if everyone participated equally?
+
+There are 3 open PR's but one seems a duplicate. So 2 PR were made where 4 were expected. 
+
+Ha Doan: I think you completed the difference and split object exercises. They were done and look ok but from the PR I see that the test fail.
+Inna Vozniak: I can see you intialized the repo but I can't find any other branches/commits
+Madhu: You completed all exercises but you only have a few tests and nothing of your work is commited
+ZeruBabel: I cannot seem to find any of your work
+
+
+
